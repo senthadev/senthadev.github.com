@@ -2,9 +2,12 @@
 layout: layout
 ---
 
-<div class="content">
-  <div id="post">
-    <h1>{{ post.title }}</h1>
-    {{ content }}
-  </div>
-</div>
+<article>
+    <h3>{{ post.title }}</h3>
+    <h6>Written by Senthadev on {{ post.date | date: "%B %e, %Y" }}</h6>
+    <div class="row">
+        <div class="large-12 columns">
+            {{ content }}
+        </div>
+    </div>
+</article>

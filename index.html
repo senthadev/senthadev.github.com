@@ -3,14 +3,16 @@ layout: layout
 title: Senthadev Notes
 ---
 
-<div class="content">
-  <div class="related">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-    <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+{% for post in site.posts %}
+<article>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h6>Written by Senthadev on {{ post.date | date: "%B %e, %Y" }}</h6>
+    <div class="row">
+        <div class="large-12 columns">
+            {{ post.content }}
+        </div>
+    </div>
+</article>
+<hr />
+{% endfor %}
+
