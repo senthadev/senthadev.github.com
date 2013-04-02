@@ -25,7 +25,7 @@ Enough with theory, lets get into action.
         initialVector := "0000000000000000" //8 bytes
         plainText := "112233445566778811223344556677881122334455667788" // length must be multiply of 8
 
-        //convert the kic to 3 keys (k1, k2, k3 where k1 == k3)
+        //convert the kic to 3 keys (k1, k2, k3 where k1 != k2 and k1 == k3)
         kic = fmt.Sprintf("%s%s", kic, kic[0:16])
     
         key, _ := hex.DecodeString(kic);
