@@ -18,12 +18,10 @@ we can set the TP-PID field bits to achieve the sms replacement. We must note th
 Which means Mobile OS/(U)SIM has to implement this feature as mentioned in the 3gpp specification.
 Well the mobiles(windows phone/android/iphone/nokia) which I tested supports it.
 
->TP-PID (TP-Protocol Identifier) says,
->When bit 7 = 0, bit 6 = 1 and rest of the bits 5..0 are used as defined below:
->
+    TP-PID (TP-Protocol Identifier) says,
+    When bit 7 = 0, bit 6 = 1 and rest of the bits 5..0 are used as defined below:
 
 - 01000000 (0x40)- Short message type 0 (This is the normal text sms)
-
 - 01000001 (0x41) - Replace short message type - 1
 - 01000010 (0x42) - Replace short message type - 2
 - 01000011 (0x43) - Replace short message type - 3
@@ -41,14 +39,14 @@ It will use the sender address + pid value combination to find and replace.
 "VirtualA" uses 27000 as a sender address to send the tokens.
 And use Kannel SMS gateway to submit these sms's to smsc. Below given url is a sample for sending replaceable sms.
 
->http://token.viruala.io:12000/cgi-bin/sendsms?username=xx&password=xx&from=27000&to=47xxxxxxx&smsc=toekn&coding=0&pid=65&text=124323
+    http://token.viruala.io:12000/cgi-bin/sendsms?username=xx&password=xx&from=27000&to=47xxxxxxx&smsc=toekn&coding=0&pid=65&text=124323
 
 parameter ‘pid’ represents the TP-PID, and its value is 65( 65 is in decimal, which is a Replace short message type - 1).
 User will receive a sms text = 124323.
 
 And, when the user logins again, application will send another token sms,
 
->http://token.viruala.io:12000/cgi-bin/sendsms?username=xx&password=xx&from=27000&to=47xxxxxxx&smsc=toekn&coding=0&pid=65&text=tgr435
+    http://token.viruala.io:12000/cgi-bin/sendsms?username=xx&password=xx&from=27000&to=47xxxxxxx&smsc=toekn&coding=0&pid=65&text=tgr435
 
 Now the mobile will replace the previous sms text "124323" with "tgr435".
 And if you check the mobile, it will contain only one sms with the latest token text.
