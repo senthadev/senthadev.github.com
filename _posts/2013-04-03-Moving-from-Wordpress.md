@@ -12,7 +12,7 @@ I was going though my old notes, found this quote which I learned sometime ago.
 
 Hello Guys,
 
-Sometimes back, I was using wordpress.com [senthadev.wordpress.com](http://senthadev.wordpress.com) to host my blogs. 
+Sometimes back, I was using wordpress to host my blog. 
 But not satisfied with it. Have to pay more to include a simple javascript snippet. And it felt bulky. Now I have started to use
 github/jekyll. And I love it. Power of simple.
 
