@@ -3,11 +3,11 @@ layout: post
 title: Finding forgotten documents in gmail
 ---
 
-Our mail boxes are a filled with hidden gems. It contains memories which are connected to certain messages.
+Our mail boxes are filled with hidden gems. It contains memories which are connected to certain messages.
 I started to notice the forgotten gems while I was searching for old mails. The path I travelled, the hurdles I jumped, 
-my thoughts and my ideas its very interesting to go through these forgotten gems. I remembered an wise one said, "never forget the way you came". This is where I realized that my gmail had more than 10000 mails going back to start. Its all the way from time when gmail was introduced and I got an invite from my friend to join.
+my thoughts and my ideas; its very interesting to go through these forgotten gems. I remembered an wise one said, "never forget the way you came". This is where I realized that my gmail had more than 10000 mails going back to start. Its all the way from time when gmail was introduced and I got an invite from a friend to join.
 
-lets say, I want to find all the images (jpg and png) I received, which are more than 1KB in size, before 2008.
+Lets say, I want to find all the images (jpg and png) I received, which are more than 1KB in size, before 2008.
 
 So I used the following search string to achieve it :
 
@@ -25,4 +25,5 @@ This link [https://support.google.com/mail/answer/7190](https://support.google.c
 your on search critiria.
 
 Good luck on hidden gem hunting.
-(I guess free service provider is also doing the same to learn my behaviours and narrow the ads which are directly targets me)
+
+(I guess free service provider is also doing the same to learn my behaviours and narrow the ads which are directly targeting me)
