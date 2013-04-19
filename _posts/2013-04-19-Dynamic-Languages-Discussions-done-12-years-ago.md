@@ -8,7 +8,7 @@ I was watching the following video [http://www.youtube.com/watch?v=agw-wlHGi0E](
 Computer doesn't care about the languages, it only need the instructions to execute.
 Its us who needs languages.
 
-Different between best languages and rest languages are that best languages are created to be used by them to solve their own problems. 
+Different between best languages and other languages are that best languages are created to be used by them to solve their own problems. 
 Other languages are created to be used by others. Simply designed for marketing.
 Hacker's don't like to be told what to do. They like to mess around and figure things out.
 Best languages are the one which helps to write throw-away programs. Because programs are born in throw-away programs.
@@ -20,6 +20,6 @@ Knowing where it will break is very important. Using closure to keep states.
 
 Focus on profilers since it helps you to speed up your programs.  
 
-An interesting point. Rather then picking a language which was designed by 5 people comity, pick a language from a pool of 5 different languages where its created by 5 different people. Since each one of them will take very high risk and break boundaries to create it and use it to solve their problems.
+An interesting point. Rather then picking a language which was designed by 5 people comity, pick a language from a pool of 5 different languages where created by 5 different people. Since each one of them will take very high risk and break boundaries to create it and use it to solve their problems.
 
 (Rest of the speakers are also superb. )
