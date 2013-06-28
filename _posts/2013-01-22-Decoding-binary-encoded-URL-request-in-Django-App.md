@@ -22,7 +22,7 @@ Therefore, to retrieve the values, I used below code. But the return values were
 
 For example,
 I was expecting *027100* for ud, but I got *u'\x02q\x00'*.
-And this caused an error when I tried to convert the value back to binary using *binascii.b2a_hex(ud)* 
+And this caused an error when I tried to convert the value back to binary using *binascii.b2a_hex(ud)*.
 Django threw the following error:
 
     UnicodeEncodeError: 'charmap' codec can't encode character u'\ufffd' in position 3: character maps to
