@@ -4,14 +4,7 @@ layout: layout
 
 {% for post in site.posts %}
 <article>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <h6>Written by Senthadev on {{ post.date | date: "%B %e, %Y" }}</h6>
-    <div class="row">
-        <div class="large-12 columns">
-            {{ post.content }}
-        </div>
-    </div>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>[{{ post.date | date: "%B %e, %Y" }}]</small></h3>
 </article>
-<hr />
 {% endfor %}
 
