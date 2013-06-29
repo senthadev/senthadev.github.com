@@ -6,7 +6,7 @@ title: Kannel HTTP Admin
 For a project, I need to send and recieve SMS's by accessing Mobile Operators SMSC account.
 SMSC(SMS Center) is a server which resides on Operators infrastructure and acts as a gateway between internet and Operators network.
 This server understands an unique protocol called SMPP (Short Message Peer to Peer).
-For this project, I have to use version 3.4 of the SMPP protocol.
+For a project, I have to use version 3.4 of the SMPP protocol.
 
 Therefore I used Kannel as a gateway between Operators SMSC and our Web Application.
 Kannel(www.kannel.org) is an open source WAP/SMS gateway. Once the Kannel gateway is configured properly, it is accessed via HTTP inorder to send/receive SMS and administration purpose.
@@ -15,8 +15,8 @@ This article covers how to admin the kannel via HTTP. This covers for release 1.
 
 <table>
     <tr><td>To check the status of the kannel</td></tr>
-    <tr><td>http://kannelhost:port/status.txt , to get the response in xml then 
-        use http://kannelhost:port/status.xml</td></tr>
+    <tr><td>http://kannelhost:port/status.txt
+        To get the response in xml then use http://kannelhost:port/status.xml</td></tr>
     <tr><td>To restart entire SMSC connections</td></tr>
     <tr><td>http://kannelhost:port/restart?password=xxx , must use the admin password.
         It will re-read the configuration file and start all the SMSC connetions</td></tr>
