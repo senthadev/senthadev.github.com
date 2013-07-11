@@ -5,7 +5,9 @@ title: Oracle Sql Date Queries
 
 How to create a date from string value?
 
-    select to_date('2013-06-27', 'yyyy-mm-dd') from dual;
+<pre class="prettyprint">
+select to_date('2013-06-27', 'yyyy-mm-dd') from dual;
+</pre>
 
 For available formats : [http://psoug.org/reference/date_func.html](http://psoug.org/reference/date_func.html)
 
